@@ -1,8 +1,13 @@
 name: TDS se bachalo
 
+on:
+  push:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  tds-paglu:
+    runs-on: ubuntu-slim
     steps:
       - name: 24f2008341@ds.study.iitm.ac.in
-      run: echo "Hello, world!"
+        run: echo "Hello World!"

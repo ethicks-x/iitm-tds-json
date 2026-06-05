@@ -1,0 +1,8 @@
+name: TDS se bachalo
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2008341@ds.study.iitm.ac.in
+      run: echo "Hello, world!"
